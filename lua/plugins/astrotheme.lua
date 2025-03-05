@@ -1,3 +1,4 @@
+--if true then return {} end
 return {
   "AstroNvim/astrotheme",
   opts = {
@@ -46,22 +47,21 @@ return {
       -- },
       astrodark = {
         ui = {
-          tool = "gray10",
-          base = "gray13",
-          inactive_base = "gray10",
-          text = "gray90",
-          text_active = "gray91",
-          text_inactive = "gray61",
-          text_match = "gray98",
-          none_text = "gray25",
-          current_line = "gray16",
+          tool = "#1a1a1a",
+          base = "#212121",
+          inactive_base = "#1a1a1a",
+          text = "#e5e5e5",
+          text_active = "#e8e8e8",
+          text_inactive = "#9c9c9c",
+          text_match = "#fafafa",
+          none_text = "#404040",
+          current_line = "#292929",
           tabline = "#111111",
-          selection = "gray25",
-
+          selection = "#404040",
         },
         syntax = {
           comment = "SkyBlue",
-          text = "gray95",
+          text = "#f2f2f2",
         }
       },
     },
@@ -97,14 +97,14 @@ return {
 
         ["@keyword.directive.define.c"] = { fg = "indianred", bg = "NONE" },
         ["@keyword.directive.c"] = { fg = "indianred", bg = "NONE" },
-        ["@lsp.type.macro.c"] = { fg = "gray90", bg = "NONE"},
+        ["@lsp.type.macro.c"] = { fg = "#e5e5e5", bg = "NONE"},
         ["@lsp.typemod.macro.declaration.c"] = { fg = "indianred", bg = "NONE"},
-        ["@property"] = { fg = "gray90", bg = "NONE" },
-        ["@lsp.typemod.variable.readonly.c"] = { fg = "gray90", bg = "NONE" },
+        ["@property"] = { fg = "#e5e5e5", bg = "NONE" },
+        ["@lsp.typemod.variable.readonly.c"] = { fg = "#e5e5e5", bg = "NONE" },
         ["@lsp.typemod.label.declaration.c"] = { fg = "khaki", bg = "NONE"},
         ["cLabel"] = { fg = "khaki" },
-        ["CopilotSuggestion"] = { fg = "gray50" },
-        ["CopilotAnnotation"] = { fg = "gray50" },
+        ["CopilotSuggestion"] = { fg = "#7f7f7f" },
+        ["CopilotAnnotation"] = { fg = "#7f7f7f" },
       },
     },
 
